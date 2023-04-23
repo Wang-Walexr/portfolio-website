@@ -2,7 +2,7 @@ import React from "react"
 
 const Portfolio = () => {
     return (
-        <section data-id="portfolio" className="animated-section">
+        <section id="portfolio" className="animated-section">
             <div className="section-content portfolio-bg">
                 <div className="page-title">
                     <h2>Portfolio</h2>

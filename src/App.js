@@ -45,14 +45,13 @@ function App() {
             <Home />
             {/* <!-- End of Home Subpage --> */}
 
-            {/* <!-- Resume Subpage --> */}
-            <Resume />
-            {/* <!-- End of Resume Subpage --> */}
-
-
             {/* <!-- Portfolio Subpage --> */}
             <Portfolio />
             {/* <!-- End of Portfolio Subpage --> */}
+
+            {/* <!-- Resume Subpage --> */}
+            <Resume />
+            {/* <!-- End of Resume Subpage --> */}
 
             {/* <!-- Contact Subpage --> */}
             <Contact />

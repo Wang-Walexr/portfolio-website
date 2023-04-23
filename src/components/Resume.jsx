@@ -4,8 +4,8 @@ import React from "react"
 const Resume = () => {
 
     return (
-        <section data-id="resume" className="animated-section">
-            <div data-id="resume" className="section-content resume-bg">
+        <section data-id="resume" className="animated-section scroll-invisible">
+            <div data-id="resume" id="resume" className="section-content resume-bg">
                 <div className="page-title">
                     <h2>Resume</h2>
                 </div>

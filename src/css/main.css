@@ -291,11 +291,17 @@ input[type="submit"]:focus {
     text-align: center;
     padding: 65px 30px 45px;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .header-titles {
 
   }
+
+  
 
   /* --- Navigation --- */
   ul.main-menu {
@@ -520,7 +526,7 @@ input[type="submit"]:focus {
 .content-area {
   position: absolute;
   top: 0%;
-  right: 0;
+  right: -2%;
   background-color: transparent;
   height: 100%;
   width: 100%;
@@ -540,10 +546,13 @@ input[type="submit"]:focus {
   overflow: scroll;
 }
 
+.animated-sections::-webkit-scrollbar{
+  display: none;
+}
+
 .animated-section {
   position: relative;
   background-color: transparent;
-  border: .2rem solid black;
   height: 100%;
   width: 100%;
   border-radius: 30px;
@@ -561,6 +570,14 @@ input[type="submit"]:focus {
   background-position: center;
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.animated-section::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.animated-section.scroll-invisible{
+  overflow-y: scroll;
 }
 
 .section-content {

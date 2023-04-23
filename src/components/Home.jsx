@@ -3,7 +3,7 @@ import React from "react"
 
 const Home = () => {
   return (
-    <section data-id="home" className="animated-section ">
+    <section id="home" className="animated-section ">
       <div className="section-content vcentered item">
 
         <div className="row">
